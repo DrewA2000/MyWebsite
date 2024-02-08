@@ -1,0 +1,53 @@
+/* Heading formatting */
+h1, header h1 {
+    font-size: 28px;
+    color: #333; /* Dark gray color */
+    text-align: center;
+}
+
+h2, header h2 {
+    font-size: 24px;
+    color: #666; /* Medium gray color */
+}
+
+/* Set the font size */
+body, header {
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Specify a fallback font */
+    line-height: 1.6; /* Improve readability with some spacing between lines */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+main {
+    max-width: 800px; /* Limit content width for better readability */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border-radius: 10px; /* Rounded corners for content box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+section {
+    margin-bottom: 30px; /* Add some spacing between sections */
+}
+
+p {
+    margin-bottom: 15px; /* Add some spacing between paragraphs */
+}
+
+a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
+
+/* Center images */
+img {
+    display: block;
+    margin: 0 auto;
+}
